@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:MindEgy"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="This is a fucking bullshit, textBox:" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" FontSize="20"/>
-
-        <TextBox TextWrapping="Wrap" AcceptsReturn="True" SpellCheck.IsEnabled="True" Language="en-US" Width="299" HorizontalAlignment="Center" Margin="247,228,247.6,111" Text="Ide írjáááá..." FontSize="20" TextAlignment="Center" BorderBrush="#FFE50000"/>
+    <Grid Background="#FFA8CCD9">
+        <StackPanel Margin="10" HorizontalAlignment="Center" Background="LightGray">
+            <TextBox TextWrapping="Wrap" AcceptsReturn="True" SpellCheck.IsEnabled="True" Language="en-US" Width="299" HorizontalAlignment="Center" Margin="247,228,247.6,111" FontSize="20" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5"/>
+        </StackPanel>
+        <Label Content="Please inert your name!" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" FontSize="20" Margin="3"/>
 
     </Grid>
 </Window>
